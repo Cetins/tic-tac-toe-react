@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
+import Board from './components/Board';
+
 
 function App() {
+
   return (
     <div className="App">
-      <h1>test</h1>
+      <Board />
     </div>
   );
 }
 
 export default App;
+
+

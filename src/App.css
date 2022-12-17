@@ -1,0 +1,38 @@
+.App {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.board {
+    background-color: var(--background-color);
+    width: 30rem;
+    padding: 2rem;
+}
+
+.status {
+    background-color: var(--button);
+    font-size: 2rem;
+    color: var(--text);
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.square {
+    border: solid 1px var(--text);
+    background-color: var(--grid);
+    vertical-align: top;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+}
+
+.reset {
+    border: none;
+    background-color: var(--button);
+    color: var(--text);
+    font-family: 'Space Mono', monospace;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    margin: 1rem;
+}
